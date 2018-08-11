@@ -80,6 +80,7 @@ header{
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: gray;
     font-size: 1.25em;
+    margin-top: 17px;
 }
 
 .ingredients ul{
@@ -96,12 +97,12 @@ header{
     margin-left: 5px;
 }
 
-.this_list{
-    padding-left: 20px;
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
 }
 
-.ing{
-    text-decoration: line-through;
+.this_list{
+    padding-left: 20px;
 }
 
 .stripe_bar{
@@ -149,5 +150,11 @@ footer{
 
 .footer_hr{
     width: 47%;
-    display: inline-block; 
+    display: inline-block;
+    color: 
+}
+
+.real_footer{
+    margin-top: 30px ;
+    padding-bottom: 70px;
 }
