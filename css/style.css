@@ -28,7 +28,7 @@ header{
 }
 
 .second_header{
-    margin-top: 30px;
+    margin-top: 10px;
     display: inline-block;
     padding-bottom: 25px;
 }
@@ -104,3 +104,50 @@ header{
     text-decoration: line-through;
 }
 
+.stripe_bar{
+    height: 11px;
+    background-image: repeating-linear-gradient(45deg, #7a7676, #7a7676 1px, #fff 1px, #fff 3px);   
+    margin: 25px 0; 
+}
+
+.vanessa{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 525px;
+    padding-left: 10px;
+    margin-right: 15px;
+    color: gray;
+    margin-bottom: 75px;
+}
+
+.vanessa h2{
+    font-size: 1.3em;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+
+.vanessa p{
+    font-size: 1.1em;
+}
+
+.btn{
+    width: fit-content;
+    padding: 17px 32px;
+    background-color: #bf6c5a;
+    font-family: 'Heebo', sans-serif;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;    
+}
+
+footer{
+    text-align: center;
+    color: #A8A4A4;
+}
+
+.footer_hr{
+    width: 47%;
+    display: inline-block; 
+}
